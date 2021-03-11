@@ -1,0 +1,26 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "author": "Mikhail Marynenko <0x77dev@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "get:iqossdk": "ts-node get-iqos-sdk.ts",
+    "lint": "eslint **/*.ts"
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.8",
+    "@types/node": "^14.14.33",
+    "@types/node-fetch": "^2.5.8",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@mishguru/jadx-node": "https://github.com/mishguruorg/jadx-node#master",
+    "@modmyiqos/jadx-node": "^3.1.0",
+    "@octokit/rest": "^18.3.5",
+    "fs-extra": "^9.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
